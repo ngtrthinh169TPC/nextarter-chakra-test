@@ -1,7 +1,8 @@
 {
   "extends": [
-    "sznm/react",
+    // "sznm/react",
     "plugin:react/jsx-runtime",
     "plugin:@next/next/recommended"
-  ]
+  ],
+  "parser": "@babel/eslint-parser"
 }
